@@ -1,0 +1,33 @@
+#top-nav-bar {
+    background: var(--light-gray);
+}
+
+#top-nav-bar .row {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+#top-nav-bar .row .col-left img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#top-nav-bar .row a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 650;
+    font-size: 12px;
+}
+
+#top-nav-bar .row a:hover {
+    opacity: 0.5;
+}
+
+#top-nav-bar .row .line {
+    font-size: 11.5px;
+    font-weight: 700;
+}

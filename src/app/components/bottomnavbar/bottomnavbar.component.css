@@ -1,0 +1,8 @@
+div {
+    background-color: var(--light-gray);
+    line-height: 10px;
+}
+
+span {
+    font-size: 13px;
+}

@@ -1,0 +1,167 @@
+
+#shoe-items header h1 {
+    font-family: var(--font-family-primary);
+    font-size: 95px;
+    line-height: 35px;
+    letter-spacing: -3px;
+}
+
+
+#shoe-items .view-icons a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+#shoe-items .view-icons a i {
+    background: #E4E4E4;
+    padding: 15px 19px;
+    border-radius: 50%;
+
+}
+
+#shoe-items .nike svg {
+    width: 35px;
+}
+
+#shoe-items .nike a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#shoe-items .view-icons a i:hover {
+    background: #cbcbcb;
+
+}
+
+#shoe-items .img-slider .scroll-hori {
+    overflow-x: scroll;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#shoe-items .img-slider img {
+    width: 450px !important;
+}
+
+#shoe-items {
+    font-weight: 560;
+}
+
+#shoe-items .view-all span {
+    font-weight: 560;
+}
+
+#shoe-items .img-slider span:first-child {
+    color: #99470A;
+}
+
+
+
+#shoe-items .view-icons a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#shoe-items .view-icons a i {
+    background: #E4E4E4;
+    padding: 15px 19px;
+    border-radius: 50%;
+
+}
+
+#shoe-items .adidas svg {
+    width: 50px;
+}
+
+#shoe-items .adidas a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#shoe-items-1 .view-icons a i:hover {
+    background: #cbcbcb;
+
+}
+
+#shoe-items-1 .img-slider .scroll-hori {
+    overflow-x: scroll;
+}
+
+/* #shoe-items-1 .img-slider img {
+    width: 450px !important;
+} */
+
+#shoe-items-1 {
+    font-weight: 560;
+}
+
+#shoe-items-1 .view-all span {
+    font-weight: 560;
+}
+
+#shoe-items-1 .img-slider span:first-child {
+    color: #99470A;
+}
+
+
+
+#shoe-items .view-icons a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#shoe-items .view-icons a i {
+    background: #E4E4E4;
+    padding: 15px 19px;
+    border-radius: 50%;
+
+}
+
+#shoe-items .puma svg {
+    width: 32px;
+}
+
+#shoe-items .puma a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#shoe-items-2 .view-icons a i:hover {
+    background: #cbcbcb;
+
+}
+
+#shoe-items-2 .img-slider .scroll-hori {
+    overflow-x: scroll;
+}
+
+/* #shoe-items-2 .img-slider img {
+    width: 450px !important;
+} */
+
+#shoe-items-2 {
+    font-weight: 560;
+}
+
+#shoe-items-2 .view-all span {
+    font-weight: 560;
+}
+
+#shoe-items-2 .img-slider span:first-child {
+    color: #99470A;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+
+
+@media (max-width: 768px) {
+    #shoe-items .img-slider img {
+        width: 340px !important;
+    }
+}

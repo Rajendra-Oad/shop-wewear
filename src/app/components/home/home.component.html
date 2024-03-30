@@ -1,0 +1,44 @@
+<app-topnavbar></app-topnavbar>
+<app-navbar></app-navbar>
+<app-bottomnavbar></app-bottomnavbar>
+
+<div class="container-fluid-block">
+    <section id="banner" class="container-fluid mb-4">
+        <div class="banner-img">
+            <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/974f0e9b-37f9-42e3-9e80-95d5cfbe464c/nike-just-do-it.jpg"
+                alt="BANNER-SHOE" class="img-fluid d-none d-md-block landscape-url">
+            <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/e3cec619-c740-4b2e-ae2b-035d60290f85/nike-just-do-it.jpg"
+                alt="BANNER-SHOE" class="img-fluid d-md-none d-block portrait-url">
+        </div>
+    </section>
+    
+</div>
+
+<app-items></app-items>
+
+<div class="container-fluid-block">
+    <section id="banner" class="container-fluid">
+        <div class="title-for-img py-4 fs-3">
+            Just In
+        </div>
+        <div class="banner-img">
+            <a routerLink="/home" routerLinkActive="active">
+                <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/2c87526e-3dae-45a0-94ba-345bab73619f/nike-just-do-it.png"
+                    class="d-none d-md-flex landscape-url" style="width: 100%;">
+                <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/118594d7-b284-4d4c-b770-32858d3a16c7/nike-just-do-it.png"
+                    alt="BANNER-SHOE" class="d-block d-md-none img-fluid portarit-url">
+                <div class="img-content-container text-center fw-medium pt-5">
+                    <span>Coming Soon</span>
+                    <h1 class="text-uppercase fw-normal">Nike Air Max Dn</h1>
+                    <p class="mt-3">The next generation of Air technology launches on March 26th. Preview the full
+                        lineup of colourways now.</p>
+                    <button class="btn btn-dark py-1 rounded-pill">Get Notified</button>
+                </div>
+            </a>
+        </div>
+    </section>
+</div>
+
+<div class="footers mt-5">
+    <app-footer></app-footer>
+</div>

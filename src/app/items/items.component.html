@@ -1,0 +1,322 @@
+<section id="shoe-items" class=" mt-4 mt-sm-5">
+    <header class="my-5 text-lg-center text-start">
+        <p class="font-weight-bold">We Wear New Featured</p>
+        <h1>TOP BRANDS</h1>
+        <p class="mt-lg-5 mt-4">Marathon for the speed to push beyond what you can thought possible.</p>
+        <button class="btn btn-dark rounded-pill py-1 px-4">Shop</button>
+    </header>
+    <div class="px-3 px-sm-5 mt-5">
+        <div class="row">
+            <div class="nike col-7 col-sm-7 d-flex align-items-center">
+                <h4>
+                    <a href="https://www.nike.com/in/w/member-access-4lbty" target="_blank">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Nike</title>
+                            <path
+                                d="M24 7.8L6.442 15.276c-1.456.616-2.679.925-3.668.925-1.12 0-1.933-.392-2.437-1.177-.317-.504-.41-1.143-.28-1.918.13-.775.476-1.6 1.036-2.478.467-.71 1.232-1.643 2.297-2.8a6.122 6.122 0 00-.784 1.848c-.28 1.195-.028 2.072.756 2.632.373.261.886.392 1.54.392.522 0 1.11-.084 1.764-.252L24 7.8z" />
+                        </svg>
+                        <span>Nike</span>
+                    </a>
+                </h4>
+            </div>
+            <div class="col-5 d-flex align-items-center justify-content-md-end view-icons  d-none d-md-flex">
+                <div class="view-icons ms-4 " style="cursor: pointer;">
+                    <a><i class="fa-solid fa-chevron-left me-2"></i></a>
+                    <a id="next"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="d-flex d-md-none col-5 align-items-center justify-content-end view-all">
+                <button class="btn"><span>View all</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="img-slider pt-3">
+        <div class="ps-3 ps-md-5 pb-4">
+                <div class="scroll-hori d-flex pb-4">
+                    <ng-container *ngFor="let item of nikeItems">
+                        <a routerLink="/items" class="me-4 ms-1">
+                            <div class="scroll-imgs" title="{{item.name}}">
+                                <img src="{{item.img}}"
+                                    alt="Nike Air Force 1 ' 7" class="rounded-4" id="img-1">
+                                <div class="scroll-img-content px-3">
+                                    <span class="d-block mt-2">{{item.quality}}</span>
+                                    <span class="d-block">{{item.name}}</span>
+                                    <span class="d-block mb-2 text-muted">{{item.genderCategory}}</span>
+                                    <span class="d-block">MRP :&#8377;{{item.price}}</span>
+                                </div>
+                            </div>
+                        </a>
+                    </ng-container>
+                    </div>
+                </div>
+    </div>
+</section>
+
+
+<section id="shoe-items" class=" mt-5">
+    <div class="px-3 px-md-5">
+        <div class="row">
+            <div class="adidas col-7 col-sm-7 d-flex align-items-center">
+                <h4>
+                    <a href="https://www.adidas.co.in/outlet?cm_mmc=AdieSEM_Google-_-adidas-Brand-B-Exact-_-Search-_--_-dv%3AeCom-_-cn%3Aadidas-Brand-B-Exact-_-pc%3AGoogle&cm_mmc1=IN&cm_mmc2=PPC-Multiple--Multiple-Multiple-IN-EMEA-eCom-Paid_Search&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuQQeV_NZZhdZwZxLvK4ozVJPKX1Zek_yAwSHgKT_qPwiCmwToFXjsMaAlaQEALw_wcB"
+                        class="d-flex">
+                        <span class="d-flex align-items-center justify-content-center me-2"><i
+                                class="gg-adidas text-dark"></i></span>
+                        <span>Adidas</span>
+                    </a>
+                </h4>
+            </div>
+            <div class="col-5 d-flex align-items-center justify-content-md-end view-icons  d-none d-md-flex">
+                <!-- <span><a href="#shoe-items" class="text-end">View all</a></span> -->
+                <div class="view-icons ms-4 " style="cursor: pointer;">
+                    <a><i class="fa-solid fa-chevron-left me-2"></i></a>
+                    <a id="next"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="d-flex d-md-none col-5 align-items-center justify-content-end view-all">
+                <button class="btn"><span>View all</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="img-slider pt-3">
+        <div class="ps-3 ps-md-5 pb-4 ">
+            <div class="scroll-hori d-flex pb-4">
+                <div class="scroll-imgs" title="Stan Smith Shoes">
+                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4bc9628836bf42a181f1ac1e00f51b22_9366/Stan_Smith_Shoes_White_FX5502_06_standard.jpg"
+                        alt="Stan Smith Shoes" class="me-3" id="img-1">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Stan Smith Shoes</span>
+                        <span class="d-block mb-2 text-muted">Men's Shoes</span>
+                        <span class="d-block">MRP :&#8377;8 999.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Superstar Shoes">
+                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/27a4cab6236447958c5caad6009a19be_9366/Superstar_Shoes_White_EG4958_06_standard.jpg"
+                        alt="Superstar Shoes" class="me-3" id="img2">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Superstar Shoes</span>
+                        <span class="d-block mb-2 text-muted">Men's Shoes</span>
+                        <span class="d-block">MRP :&#8377;8 999.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="X_Plrboost Shoes">
+                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/07d17a37588946aeb4d5af560157ac95_9366/X_PLRBOOST_Shoes_White_HP3130_06_standard.jpg"
+                        alt="X_Plrboost Shoes" class="me-3" id="img-3">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">X_Plrboost Shoes</span>
+                        <span class="d-block mb-2 text-muted">Men's & Women's Shoes</span>
+                        <span class="d-block">MRP :&#8377;17 999.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Formu Low Shoes">
+                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/15438a0fafb249578738ac5e003cfa3f_9366/Forum_Low_Shoes_White_FY7756_06_standard.jpg"
+                        alt="Formu Low Shoes" class="me-3" id="img-4">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Formu Low Shoes</span>
+                        <span class="d-block mb-2 text-muted">Men's Shoes</span>
+                        <span class="d-block">MRP :&#8377;9 999.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Web Boost Shoes">
+                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f19af162a66a4ca6b517af1b01769158_9366/Web_BOOST_Shoes_White_HR0085_06_standard.jpg"
+                        alt="Web Boost Shoes" class="me-3" id="img-5">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Web Boost Shoes</span>
+                        <span class="d-block mb-2 text-muted">Shoes</span>
+                        <span class="d-block">MRP :&#8377;8 999.50</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Adicolor Classics">
+                    <img src="https://assets.adidas.com/images/w_1536,h_1536,f_auto,q_auto,fl_lossy,c_fill,g_auto/a46d7701f3294563be47e5df97ebe226_9366/Adicolor_Classics_3-Stripes_Tee_Purple_IM9394_21_model.jpg"
+                        alt="Adicolor Classics" class="me-3" id="img-6">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Adicolor Classics</span>
+                        <span class="d-block mb-2 text-muted">Men's 3-stripes Tee</span>
+                        <span class="d-block">MRP :&#8377;2 499.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Adidas Rekive Woven">
+                    <img src="https://assets.adidas.com/images/w_1536,h_1536,f_auto,q_auto,fl_lossy,c_fill,g_auto/252d9e0dce4f4f8f868e0b198e46f9b7_9366/adidas_Rekive_Woven_Track_Jacket_Black_HZ0729_21_model.jpg"
+                        alt="Adidas Rekive Woven" class="me-3" id="img-7">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Adidas Rekive Woven</span>
+                        <span class="d-block mb-2 text-muted">Men's Track Jacket</span>
+                        <span class="d-block">MRP :&#8377;5 589.50</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Adidas Rifta">
+                    <img src="https://assets.adidas.com/images/w_1536,h_1536,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a8830776c3e44e49b58af8500f71b5b_9366/adidas_RIFTA_Metro_Short_White_IC8411_21_model.jpg"
+                        alt="Adidas Rifta" class="me-3" id="img-8">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Adidas Rifta</span>
+                        <span class="d-block mb-2 text-muted">Men's Metro Short</span>
+                        <span class="d-block">MRP :&#8377;3 359.50</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Select Jacket">
+                    <img src="https://assets.adidas.com/images/w_1536,h_1536,f_auto,q_auto,fl_lossy,c_fill,g_auto/af53f53dbb134a5fa50ed3ff3a9281fc_9366/Select_Jacket_Purple_IT9942_21_model.jpg"
+                        alt="Select Jacket" class="me-3" id="img-9">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Select Jacket</span>
+                        <span class="d-block mb-2 text-muted">Women's Jacket</span>
+                        <span class="d-block">MRP :&#8377;5 990.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Originals Tricot Warm Up">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/9f5fa191ed864df3abdb92fd164bdcd7_9366/Originals_Tricot_Warm_Up_Pants_Brown_IJ5227_21_model.jpg"
+                        alt="Originals Tricot Warm Up" class="me-4" id="img-10">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Originals Tricot Warm Up</span>
+                        <span class="d-block mb-2 text-muted">Women's Pants</span>
+                        <span class="d-block">MRP :&#8377;5 999.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="shoe-items" class=" mt-5">
+    <div class="px-3 px-md-5">
+        <div class="row">
+            <div class="puma col-7 col-sm-7 d-flex align-items-center">
+                <h4>
+                    <a href="https://in.puma.com/in/en/eoss/eoss-men?pref_percentageDiscountBadge=40+or+more"
+                        class="d-flex" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="Puma">
+                            <path fill="#000000"
+                                d="M2.27 3.081c-.154.023-.302.585-.6.878-.219.211-.49.199-.635.46-.055.097-.037.264-.1.424-.122.32-.55.348-.55.697-.001.377.357.448.668.716.243.214.266.363.56.467.251.084.624-.192.959-.092.276.081.54.139.602.42.055.258-.004.659-.338.613-.113-.013-.602-.175-1.201-.113C.91 7.633.084 7.867.003 8.667c-.045.447.514.974 1.053.867.373-.073.197-.508.399-.72.266-.271 1.774.945 3.175.945.59 0 1.029-.148 1.465-.6.041-.035.09-.108.154-.113a.566.566 0 0 1 .197.087c1.129.898 1.982 2.7 6.131 2.721.584.004 1.248.279 1.791.769.484.443.767 1.133 1.042 1.832.416 1.049 1.159 2.07 2.287 3.206.062.061.991.776 1.065.829.012.008.08.169.056.259-.028.681-.128 2.662 1.364 2.751.364.019.269-.236.269-.41-.001-.345-.064-.688.119-1.041.251-.486-.532-.709-.51-1.76.017-.783-.648-.65-.985-1.246-.194-.346-.367-.529-.354-.952.076-2.379-.511-3.942-.804-4.326-.229-.29-.418-.405-.208-.539 1.244-.814 1.527-1.571 1.527-1.571.662-1.54 1.257-2.947 2.078-3.567.165-.128.589-.442.849-.564.767-.358 1.17-.574 1.392-.789.351-.339.63-1.048.293-1.477-.42-.53-1.146-.109-1.466.079-2.288 1.344-2.625 3.716-3.418 5.078-.633 1.089-1.661 1.888-2.58 1.953-.689.051-1.432-.087-2.171-.409-1.799-.781-2.783-1.789-3.016-1.967-.483-.369-4.236-4.016-7.275-4.165 0 0-.378-.748-.472-.76-.222-.028-.45.446-.613.502-.154.052-.412-.513-.567-.488z"
+                                class="color37474f svgShape"></path>
+                        </svg>
+                        <span class="ms-2">Puma</span>
+                    </a>
+                </h4>
+            </div>
+            <div class="col-5 d-flex align-items-center justify-content-md-end view-icons  d-none d-md-flex">
+                <!-- <span><a href="#shoe-items" class="text-end">View all</a></span> -->
+                <div class="view-icons ms-4 " style="cursor: pointer;">
+                    <a><i class="fa-solid fa-chevron-left me-2"></i></a>
+                    <a id="next"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="d-flex d-md-none col-5 align-items-center justify-content-end view-all">
+                <button class="btn"><span>View all</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="img-slider pt-3">
+        <div class="ps-3 ps-3 ps-md-5">
+            <div class="scroll-hori d-flex pb-4">
+                <div class="scroll-imgs" title="Clyde OG 75Y PRM">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/393314/02/sv01/fnd/IND/fmt/png/Clyde-OG-75Y-PRM-Unisex-Sneakers"
+                        alt="Clyde OG 75Y PRM" class="me-3" id="img-1">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Clyde OG 75Y PRM</span>
+                        <span class="d-block mb-2 text-muted">Men's & Women's Shoes</span>
+                        <span class="d-block">MRP :&#8377;8 999.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Mayze Crashed PRM">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/393070/04/sv01/fnd/IND/fmt/png/Mayze-Crashed-PRM-Women's-Sneakers"
+                        alt="Mayze Crashed PRM" class="me-3" id="img2">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Mayze Crashed PRM</span>
+                        <span class="d-block mb-2 text-muted">Women's Shoes</span>
+                        <span class="d-block">MRP :&#8377;4 949.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="PUMA x RHUIGI Clyde">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/393305/02/sv01/fnd/IND/fmt/png/PUMA-x-RHUIGI-Clyde-Unisex-Sneakers"
+                        alt="PUMA x RHUIGI Clyde Unisex Sneakers" class="me-3" id="img-3">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">PUMA x RHUIGI Clyde</span>
+                        <span class="d-block mb-2 text-muted">Men's & Women's Shoes</span>
+                        <span class="d-block">MRP :&#8377;7 999.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Clyde OG">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/391962/04/sv01/fnd/IND/fmt/png/Clyde-OG-Unisex-Sneakers"
+                        alt="Clyde OG" class="me-3" id="img-4">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Clyde OG</span>
+                        <span class="d-block mb-2 text-muted">Men's & Women's Shoes</span>
+                        <span class="d-block">MRP :&#8377;8 999.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Basket Classic XXI ">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/374923/03/sv01/fnd/IND/fmt/png/Basket-Classic-XXI-Men's-Sneakers"
+                        alt="Basket Classic XXI " class="me-3" id="img-5">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Basket Classic XXI </span>
+                        <span class="d-block mb-2 text-muted">Men's Shoes</span>
+                        <span class="d-block">MRP :&#8377;4 869.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="T7 Uisex Track Pants">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/626332/01/mod01/fnd/IND/fmt/png/T7-Unisex-Track-Pants"
+                        alt="T7 Uisex Track Pants" class="me-3" id="img-6">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">T7 Uisex Track Pants</span>
+                        <span class="d-block mb-2 text-muted">Men's & Women's Track Pants</span>
+                        <span class="d-block">MRP :&#8377;2 499.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="SWxP PUMA WORLDWIDE Graphic Men's T-shirt">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/680609/01/mod01/fnd/IND/fmt/png/SWxP-PUMA-WORLDWIDE-Graphic-Men's-T-shirt"
+                        alt="SWxP PUMA WORLDWIDE Graphic Men's T-shirt" class="me-3" id="img-7">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">SWxP PUMA WORLDWIDE Graphic</span>
+                        <span class="d-block mb-2 text-muted">Men's T-shirt</span>
+                        <span class="d-block">MRP :&#8377;1 379.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="T7 Woven Women's Regular Fit Shorts">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/538306/21/mod01/fnd/IND/fmt/png/T7-Woven-Women's-Regular-Fit-Shorts"
+                        alt="T7 Woven Women's Regular Fit Shorts" class="me-3" id="img-8">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">T7 Woven Women's Regular Fit Shorts</span>
+                        <span class="d-block mb-2 text-muted">Women's Shorts</span>
+                        <span class="d-block">MRP :&#8377;2 199.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="T7 Women's Track Jacket">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/621464/84/mod01/fnd/IND/fmt/png/T7-Women's-Track-Jacket"
+                        alt="T7 Women's Track Jacket" class="me-3" id="img-9">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">T7 Women's Track Jacket</span>
+                        <span class="d-block mb-2 text-muted">Women's Jacket</span>
+                        <span class="d-block">MRP :&#8377;3 249.00</span>
+                    </div>
+                </div>
+                <div class="scroll-imgs" title="Classics Unisex Hoodie">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/621358/41/mod01/fnd/IND/fmt/png/Classics-Unisex-Hoodie"
+                        alt="Classics Unisex Hoodie" class="me-4" id="img-10">
+                    <div class="scroll-img-content">
+                        <span class="d-block mt-2">Best Products</span>
+                        <span class="d-block">Classics Unisex Hoodie</span>
+                        <span class="d-block mb-2 text-muted">Men's & Women's Pants</span>
+                        <span class="d-block">MRP :&#8377;2 999.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
